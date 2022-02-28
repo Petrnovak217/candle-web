@@ -1,0 +1,103 @@
+@media only screen and (max-width:1750px){
+    .background{
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+  
+    nav ul li{
+        display: block;
+
+    }
+    nav ul {
+        display: none;
+        z-index: 200;
+        margin-left: 20px;
+    }
+    .mobile-nav-back{
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+        height: 240px;
+        background-color:rgba(39, 37, 36, 0.97);
+        border-bottom: 2px solid white;
+        display: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        position: fixed;
+        z-index: 200;
+        right: 2%;
+    }
+    .color{
+        overflow-x: scroll;
+    }
+}
+
+@media only screen and (max-width:1700px){
+    .parf-img-left img{
+        display: none;
+    }
+    .parf-img-right img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1123px){
+      
+    .Price-list{
+        overflow-x: scroll;
+    }
+    .price-headtext{
+        display: none;
+    }
+    
+    table, th, td {
+        font-size: 25px;
+        border-collapse: unset; 
+    }
+    .name-table{
+        padding-top: 22px;
+    }
+
+}
+
+@media only  screen and (max-width:1120px){
+    .header-text{
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width:980px){
+  
+    .product{
+        margin: 10px 0;
+    }
+    
+    
+    .product .span-1-of-2{
+        width: 100%;
+        
+    }
+    .candle-text{
+        margin-top: 15px;
+    }
+    .candle-text p {
+        padding-top: 15px;
+    }
+
+
+    .new-information{
+        margin: 10px 0;
+    }
+   .new-information .span-1-of-2{
+    width: 100%;
+   }
+   .text p {
+    font-size: 23px;
+   }
+}
